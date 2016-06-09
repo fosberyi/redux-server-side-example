@@ -1,0 +1,33 @@
+{
+  "name": "react_redux_node_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.2.0",
+    "npm": "^3.9.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": ["react", "redux", "immutable", "example app"],
+  "author": "Ian Fosbery <ian@codeguy.io>",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "chai-immutable": "^1.5.4",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1"
+  }
+}
