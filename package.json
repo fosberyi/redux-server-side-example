@@ -11,7 +11,12 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive",
     "test:watch": "npm run test -- --watch"
   },
-  "keywords": ["react", "redux", "immutable", "example app"],
+  "keywords": [
+    "react",
+    "redux",
+    "immutable",
+    "example app"
+  ],
   "author": "Ian Fosbery <ian@codeguy.io>",
   "license": "MIT",
   "babel": {
@@ -28,6 +33,7 @@
     "mocha": "^2.5.3"
   },
   "dependencies": {
-    "immutable": "^3.8.1"
+    "immutable": "^3.8.1",
+    "redux": "^3.5.2"
   }
 }
